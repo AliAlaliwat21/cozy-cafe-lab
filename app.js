@@ -13,7 +13,7 @@ btnbtn.addEventListener('click', function(){
     }}
 )
 const quoteofday = document.querySelector('#quote-of-the-day')
-quoteofday.textContent = 'CAFFEINE ADDICTION IS NOT REAL YOU CAN NEVER HAVE ENOUGH MORE MORE MOREGIVE ME'
+quoteofday.textContent = 'CAFFEINE ADDICTION IS NOT REAL YOU CAN NEVER HAVE ENOUGH'
 
 const titlethingy = document.querySelector('.highlight-title')
 titlethingy.style.fontStyle = 'italic'
@@ -32,7 +32,7 @@ newitemtwo.textContent = "Karak Tea"
 listy2.append(newitemtwo)
 newdiv.classList.add('blog-post')
 
-const h3e1 = document.querySelector('h3')
+const h3e1 = document.createElement('h3')
 h3e1.textContent="Karak Tea Tasting Event"
 const p3e1 = document.createElement('p')
 p3e1.textContent = "Our brand new karak with its new exquisite flavor"
